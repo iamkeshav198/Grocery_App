@@ -60,7 +60,7 @@ class MainActivity : AppCompatActivity(),GroceryRVAdapter.GroceryItemClickInterf
             val qty : Double = itemquantity
             val pr : Double = itemprice
 
-            if (!itemname.isNotEmpty() || !itemprice.isNaN() || !itemquantity.isNaN()){
+            if (itemname.isBlank() || itemprice.isNaN() || itemquantity.isNaN()){
                 Toast.makeText(applicationContext,"Please fill all details",Toast.LENGTH_SHORT).show()
             }
             else{
