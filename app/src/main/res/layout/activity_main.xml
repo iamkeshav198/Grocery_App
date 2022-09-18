@@ -56,6 +56,7 @@
         android:layout_marginEnd="25dp"
         android:layout_marginBottom="50dp"
         android:layout_margin="16dp"
+
         android:backgroundTint="@color/primaryColor"
         android:contentDescription="@string/todo"
         android:elevation="5dp"
